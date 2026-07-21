@@ -83,13 +83,14 @@
   }
   .card:hover{ transform:translateY(-3px); box-shadow:0 14px 30px rgba(0,0,0,0.4); }
   .thumb{
-    position:relative; aspect-ratio:16/10; background-color:#2E3A38;
+    position:relative; aspect-ratio:141/79; background-color:#2E3A38;
     background-image:
       linear-gradient(rgba(79,195,179,0.14) 1px, transparent 1px),
       linear-gradient(90deg, rgba(79,195,179,0.14) 1px, transparent 1px);
     background-size:18px 18px;
     display:flex; align-items:center; justify-content:center;
   }
+  .thumb img{ width:100%; height:100%; object-fit:cover; display:block; }
   .thumb svg.chart{ width:56%; height:56%; }
   .thumb-caption{
     position:absolute; bottom:10px; right:12px;
@@ -163,17 +164,7 @@
 
     <article class="card">
       <div class="thumb">
-        <svg class="chart" viewBox="0 0 100 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="10" y="38" width="14" height="26" rx="2" fill="#4FC3B3" opacity="0.9"/>
-          <rect x="32" y="24" width="14" height="40" rx="2" fill="#4FC3B3" opacity="0.75"/>
-          <rect x="54" y="12" width="14" height="52" rx="2" fill="#4FC3B3" opacity="0.6"/>
-          <rect x="76" y="30" width="14" height="34" rx="2" fill="#4FC3B3" opacity="0.45"/>
-          <line x1="6" y1="66" x2="94" y2="66" stroke="#4FC3B3" stroke-opacity="0.35" stroke-width="1"/>
-        </svg>
-        <span class="thumb-caption">
-          <span data-lang="hu">kép hamarosan</span>
-          <span data-lang="en">image coming soon</span>
-        </span>
+        <img src="img/aia_cover.png" alt="AI Hatáselemzés riport borítóképe">
       </div>
       <div class="card-body">
         <span class="tag">.PBIX</span>
@@ -202,17 +193,7 @@
 
     <article class="card">
       <div class="thumb">
-        <svg class="chart" viewBox="0 0 100 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="10" y="38" width="14" height="26" rx="2" fill="#4FC3B3" opacity="0.9"/>
-          <rect x="32" y="24" width="14" height="40" rx="2" fill="#4FC3B3" opacity="0.75"/>
-          <rect x="54" y="12" width="14" height="52" rx="2" fill="#4FC3B3" opacity="0.6"/>
-          <rect x="76" y="30" width="14" height="34" rx="2" fill="#4FC3B3" opacity="0.45"/>
-          <line x1="6" y1="66" x2="94" y2="66" stroke="#4FC3B3" stroke-opacity="0.35" stroke-width="1"/>
-        </svg>
-        <span class="thumb-caption">
-          <span data-lang="hu">kép hamarosan</span>
-          <span data-lang="en">image coming soon</span>
-        </span>
+        <img src="img/rsr_cover.png" alt="Regionális Értékesítési Riport borítóképe">
       </div>
       <div class="card-body">
         <span class="tag">.PBIX</span>
